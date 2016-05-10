@@ -1,12 +1,12 @@
 html { /*couleur du fond de page*/
-	background-color: #fff;
+	background-color: black;
 }
 
 body {
-	background-color: #CC0000;
+	background-color: white;
 	background-size: cover;
 	width:1100px ;
-	height:1020px ;
+	height:1500px ;
 	margin:auto;
 }
 
@@ -15,15 +15,35 @@ header {
 	height: 200px;
 }
 
-main {
-	width: 900px;
-	height: 370px;
+h1 {
+	font-family: Arial;
+	font-size: 40px;
 }
 
-img{
+.Logo {
+	height: 100px;
+	width: 100px;
+}
+
+li {
+	display: inline-block;
+}
+
+
+main {
+	width: 900px;
+}
+
+.Presentation {  /*Image presentation*/
 	width: 900px;
 	height: 450px;
-	margin-left:100px ;
+	margin-left: 100px ;
+}
+
+.Moi { /*Image dde qui suis-je*/
+	width: 350px;
+	height: 300px;
+	margin-left: 150px;
 }
 
 h2{
@@ -32,7 +52,8 @@ h2{
 }
 
 p {
-	margin-left: 100px;
+	margin-left: 150px;
+	text-align: center-left;
 }
 
 
