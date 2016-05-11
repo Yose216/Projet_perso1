@@ -3,7 +3,7 @@ html { /*couleur du fond de page*/
 }
 
 body {
-	background-color: #e5eecb;
+	background-color: #c3d9eb;
 	background-size: cover;
 	width:1100px ;
 	height:1500px ;
@@ -53,7 +53,7 @@ li {
 }
 
 .Menu a:hover { /*change couleur du menu*/
-	color: #e5eecb;
+	color: #c3d9eb;
 }
 
 main {
