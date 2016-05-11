@@ -3,7 +3,7 @@ html { /*couleur du fond de page*/
 }
 
 body {
-	background-color: white;
+	background-color: #e5eecb;
 	background-size: cover;
 	width:1100px ;
 	height:1500px ;
@@ -12,23 +12,49 @@ body {
 
 header {
 	width: 1100px;
-	height: 200px;
+	height: 220px;
+	background-color: black;
 }
 
-h1 {
+h1 { /*nom site*/
 	font-family: Arial;
 	font-size: 40px;
+	color: #353a9e;
 }
 
-.Logo {
+.Logo { /*logo en dessous nom du site*/
 	height: 100px;
 	width: 100px;
+	position: absolute; 
+	top: 62px; 
+	left: 200px;
+}
+
+.Menu {
+	position: absolute;
+	right: 124px;
+	top: 200px;
+}
+
+ul {
+	list-style-type: none;
+	
 }
 
 li {
-	display: inline-block;
+	display: inline;
+	list-style: none;
+	padding: 0 2em;/*espacer les bouton*/
 }
 
+.Menu a {
+	text-decoration: none;
+	color: #353a9e;
+}
+
+.Menu a:hover { /*change couleur du menu*/
+	color: #e5eecb;
+}
 
 main {
 	width: 900px;
@@ -40,7 +66,7 @@ main {
 	margin-left: 100px ;
 }
 
-.Moi { /*Image dde qui suis-je*/
+.Moi { /*Image de qui suis-je*/
 	width: 350px;
 	height: 300px;
 	margin-left: 150px;
