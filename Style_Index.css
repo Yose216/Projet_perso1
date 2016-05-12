@@ -2,12 +2,18 @@ html { /*couleur du fond de page*/
 	background-color: black;
 }
 
+@font-face {
+    font-family: "Header";
+    src: url('Font-family/Fertigo_Pro_Regular.ttf');
+}
+
 body {
-	background-color: #c3d9eb;
+	background-color: white;
 	background-size: cover;
 	width:1100px ;
-	height:1500px ;
+	height:1600px ;
 	margin:auto;
+	border-radius: 50px;
 }
 
 header {
@@ -17,8 +23,8 @@ header {
 }
 
 h1 { /*nom site*/
-	font-family: Arial;
-	font-size: 40px;
+	font-family: Header;
+	font-size: 60px;
 	color: #353a9e;
 }
 
@@ -26,14 +32,14 @@ h1 { /*nom site*/
 	height: 100px;
 	width: 100px;
 	position: absolute; 
-	top: 62px; 
-	left: 200px;
+	top: 98px; 
+	left: 245px;
 }
 
 .Menu {
 	position: absolute;
 	right: 124px;
-	top: 200px;
+	top: 215px;
 }
 
 ul {
@@ -50,14 +56,16 @@ li {
 .Menu a {
 	text-decoration: none;
 	color: #353a9e;
+	font-size: 17px;
+	font-family: Header;
 }
 
 .Menu a:hover { /*change couleur du menu*/
-	color: #c3d9eb;
+	color: white;
 }
 
 main {
-	width: 900px;
+	width: 1100px;
 }
 
 .Presentation {  /*Image presentation*/
@@ -67,19 +75,25 @@ main {
 }
 
 .Moi { /*Image de qui suis-je*/
-	width: 350px;
-	height: 300px;
-	margin-left: 150px;
+	width: 450px;
+	height: 250px;
+	margin-left: 370px;
 }
 
 h2{
 	margin-left: 150px;
 	text-align: center;
+	font-size: 23px;
+	width: 900px;
+	font-family: Cursive;
 }
 
 p {
+	width: 900px;
 	margin-left: 150px;
 	text-align: center-left;
+	font-size: 18px;
+	font-family: Cursive;
 }
 
 
