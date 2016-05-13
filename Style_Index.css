@@ -1,31 +1,31 @@
 html { /*couleur du fond de page*/
-	background-color: #f1f4df;
+	background-color: #ddd6bc;
 }
 
-@font-face {
+@font-face { /*police*/
     font-family: "Header";
     src: url('Font-family/Fertigo_Pro_Regular.ttf');
 }
 
 body {
-	background-color: white;
+	background-color: #f1f4df;
 	background-size: cover;
 	width:1100px ;
 	height:1600px ;
 	margin:auto;
-	border-radius: 50px;
+	border-radius: 50px; /*bord arrondi*/
 }
 
 header {
 	width: 1100px;
 	height: 220px;
-	background-color: #f1f4df;
+	background-color: #ddd6bc;
 }
 
 h1 { /*nom site*/
 	font-family: Header;
 	font-size: 60px;
-	color: #1e110a;
+	color: #5d3327;
 }
 
 .Logo { /*logo en dessous nom du site*/
@@ -34,6 +34,14 @@ h1 { /*nom site*/
 	position: absolute; 
 	top: 98px; 
 	left: 245px;
+}
+
+.Sous-titre { /*Description en dessous logo*/
+	position: absolute;
+	top: 185px;
+	left: 50px;
+	font-family: Header;
+	color: #5d3327;
 }
 
 .Menu {
@@ -55,7 +63,7 @@ li {
 
 .Menu a {
 	text-decoration: none;
-	color: #1e110a;
+	color: #5d3327;
 	font-size: 17px;
 	font-family: Header;
 }
@@ -83,9 +91,9 @@ main {
 h2{
 	margin-left: 150px;
 	text-align: center;
-	font-size: 23px;
+	font-size: 25px;
 	width: 900px;
-	font-family: Cursive;
+	font-family: Helvetica;
 }
 
 p {
@@ -93,8 +101,8 @@ p {
 	margin-left: 150px;
 	text-align: center-left;
 	font-size: 18px;
-	font-family: Cursive;
+	font-family: Helvetica;
 }
 
 
-
+/*Fait par Youness Chetoui 05/2016*/
