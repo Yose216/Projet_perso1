@@ -1,0 +1,253 @@
+html { /*couleur du fond de page*/
+	background-color: #ddd6bc;
+}
+
+@font-face { /*police*/
+    font-family: "Header";
+    src: url('Font-family/Fertigo_Pro_Regular.ttf');
+}
+
+body {
+	background-color: #f1f4df;
+	background-size: cover;
+	width:1100px ;
+	margin: auto;
+}
+
+header {
+	width: 1100px;
+	height: 220px;
+	background-color: #ddd6bc;
+}
+
+h1 { /*nom site*/
+	font-family: Header;
+	font-size: 60px;
+	color: #5d3327;
+}
+
+.Logo { /*logo en dessous nom du site*/
+	height: 100px;
+	width: 100px;
+	position: absolute; 
+	top: 98px; 
+	left: 245px;
+}
+
+.Sous-titre { /*Description en dessous logo*/
+	position: absolute;
+	top: 185px;
+	left: 200px;
+	font-family: Header;
+	color: #5d3327;
+	font-size: 18px;
+}
+
+.Menu {
+	position: absolute;
+	right: 124px;
+	top: 215px;
+}
+
+ul {
+	list-style-type: none;
+	
+}
+
+li {
+	display: inline;
+	list-style: none;
+	padding: 0 2em;/*espacer les bouton*/
+}
+
+.Menu a {
+	text-decoration: none;
+	color: #5d3327;
+	font-size: 17px;
+	font-family: Header;
+}
+
+.Menu a:hover { /*change couleur du menu*/
+	color: #c56b52;
+}
+
+main {
+	height: 1600px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: Helvetica;
+}
+
+img {
+	height: 200px;
+	width: 300px;
+}
+
+.Jaguar_test {
+	height: 280px;
+	
+}
+
+.Jaguar_test p {
+	width: 650px;
+}
+.Jaguar_test  h3 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 21px;
+	margin-left: 220px;
+}
+
+.Jaguar_test a {
+	text-decoration: none;
+	color: black;
+}
+
+.Jaguar_test img {
+	float: left;
+	margin-left: 30px;
+}
+
+.Jaguar_test article {
+	
+	height: 150px;
+	width: 750px;
+	position: absolute;
+	left: 470px;
+	font-family: Helvetica;
+}
+
+.Jaguar_test a:hover {
+	color: #c56b52;
+}
+
+hr { /*Gere la barre de separation*/
+	width: 86%;
+	border: 2px white inset;
+	color: #ddd6bc;
+}
+
+.Audi_test {
+	height: 280px;
+}
+
+.Audi_test p {
+	width: 650px;
+}
+
+.Audi_test  h3 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 21px;
+	margin-left: 220px;
+}
+
+.Audi_test a {
+	text-decoration: none;
+	color: black;
+}
+
+.Audi_test img {
+	float: left;
+	margin-left: 30px;
+}
+
+.Audi_test article {
+	
+	height: 150px;
+	width: 750px;
+	position: absolute;
+	left: 470px;
+	font-family: Helvetica;
+}
+
+.Audi_test a:hover {
+	color: #c56b52;
+}
+
+.Bentley_test {
+	height: 280px;
+}
+
+.Bentley_test p {
+	width: 650px;
+}
+
+.Bentley_test  h3 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 21px;
+	margin-left: 220px;
+}
+
+.Bentley_test a {
+	text-decoration: none;
+	color: black;
+}
+
+.Bentley_test img {
+	float: left;
+	margin-left: 30px;
+}
+
+.Bentley_test article {
+	
+	height: 150px;
+	width: 750px;
+	position: absolute;
+	left: 470px;
+	font-family: Helvetica;
+}
+
+.Bentley_test a:hover {
+	color: #c56b52;
+}
+
+.Rolls_test {
+	height: 280px;
+}
+
+.Rolls_test p {
+	width: 650px;
+}
+
+.Rolls_test  h3 {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 21px;
+	margin-left: 220px;
+}
+
+.Rolls_test a {
+	text-decoration: none;
+	color: black;
+}
+
+.Rolls_test img {
+	float: left;
+	margin-left: 30px;
+}
+
+.Rolls_test article {
+	
+	height: 150px;
+	width: 750px;
+	position: absolute;
+	left: 470px;
+	font-family: Helvetica;
+}
+
+.Rolls_test a:hover {
+	color: #c56b52;
+}
+
+h4 {
+	font-family: Header;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+	
